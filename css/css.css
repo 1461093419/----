@@ -1,0 +1,157 @@
+<style>
+    *{
+        margin: 0px; 
+        padding: 0px;
+     }
+
+    body{
+    	margin: 0px; 
+    	padding: 0px;
+        font: 12px/150% "microsoft yahei", Arial, Verdana, "\5b8b\4f53";
+    }
+
+    a{
+        text-decoration: none;
+        color: #434343;
+    }
+    
+    /*标题横幅*/
+    .topBanner{
+    	height: 80px; 
+        background-color: #ff5775; 
+    }
+
+    .topBanner .tB_w{
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .topBanner .tB_w a{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        background-image: url(../images/JD01.png);
+        background-repeat: no-repeat;
+    }
+    
+    .topBanner .tB_w .icon_close{
+        width: 20px;
+        height:20px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        color: #fff;
+        background-color: grey;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    /*菜单以及定位*/
+    .shortcut{
+    	height: 30px;
+        background-color: #e3e4e5;     
+    }
+
+    .shortcut .s_w{
+        width: 1200px;
+        height: 30px;
+        margin: 0 auto;
+        position: relative;
+        line-height: 30px;
+    }
+
+    .shortcut .s_w .s_w_left{
+        display: inline-block;
+        margin-left: 200px;
+    }
+
+    .shortcut .s_w .s_w_left .icon_position{
+        color: red;
+    }
+
+    .shortcut .s_w .s_w_right{
+        height: 30px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .shortcut .s_w .s_w_right ul{
+        margin: 0px;
+    }
+
+    .shortcut .s_w .s_w_right ul li{
+        display: inline-block;
+        text-align: center;
+        margin: 0px 12px 0px 12px;
+    }
+
+    .shortcut .s_w .s_w_right ul .devide{
+        display: inline-block;
+        width: 1px;
+        height: 10px;
+        background-color: grey; 
+    }
+
+    .shortcut .s_w .s_w_right ul li .icon_down{
+        font-size: 10px;
+        color: grey;
+    }
+
+
+
+
+   /* 搜索框，热词*/
+    .header{
+    	height: 140px;
+    	width: 100%;
+        position: relative;
+    }
+
+    .header .h_logo{
+        width: 190px;
+        height: 170px;
+        position: absolute;
+        top: -30px;
+        left: 75px;
+    }
+
+    .header .h_logo .logo{
+        display: inline-block;
+        width: 190px;
+        height: 170px;
+        background-color: #fff;
+        background-image: url(../images/logo.png);
+        background-repeat: no-repeat;
+    }
+
+
+    /*轮播图、导航、用户登录*/
+    .main{
+    	height: 480px;
+    	width: 100%;
+    	border: 1px solid yellow;
+    }
+
+
+    /*秒杀商品*/
+    .seckill{
+    	height: 305px;
+    	width: 100%;
+    	border: 1px solid orange;
+    }
+
+    /*服务、信息*/
+    .footer{
+    	height: 500px;
+    	width: 100%;
+    	border: 1px solid pink;
+    }
+
+</style>
